@@ -13,7 +13,10 @@ const routerBase =
 module.exports = {
   mode: 'universal',
 
-  ...routerBase,
+  // ...routerBase,
+  router: {
+    base: '/nuxt1/'
+  },
 
   /*
   ** Headers of the page
