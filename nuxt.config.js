@@ -9,7 +9,7 @@ const routerBase =
         }
       }
     : {}
-
+console.log(routerBase)
 module.exports = {
   mode: 'universal',
 
