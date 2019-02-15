@@ -1,21 +1,19 @@
 const pkg = require('./package')
 
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-// const routerBase =
-//   process.env.DEPLOY_ENV === 'GH_PAGES'
-//     ? {
-//         router: {
-//           base: '/nuxt1/'
-//         }
-//       }
-//     : {}
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/nuxt1/'
+        }
+      }
+    : {}
 
 module.exports = {
   mode: 'universal',
 
-  router: {
-    base: '/nuxt1/'
-  },
+  ...routerBase,
 
   /*
   ** Headers of the page
