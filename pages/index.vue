@@ -6,7 +6,7 @@
         nuxt1
       </h1>
       <h2 class="subtitle">
-        Welcome to the iView + Nuxt.js template lyc Test!
+        Welcome to the iView + Nuxt.js template test deploy!
       </h2>
       <div class="links">
         <Button type="primary" target="_blank" to="https://nuxtjs.org/">
